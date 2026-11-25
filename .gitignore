@@ -1,0 +1,8 @@
+.env
+node_modules/
+dist/
+backups/*.json
+logs/*.log
+config.json
+resume-state.json
+accounts.json

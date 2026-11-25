@@ -1,0 +1,29 @@
+{
+  "name": "discord-server-cloner-ultra",
+  "version": "5.3.0",
+  "description": "Ultra Discord Server Cloner, Smart Sync & Offline JSON Backup Suite with Live Progress & Rate-Limit Protection",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "discord",
+    "server-cloner",
+    "backup",
+    "sync"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.4.1",
+    "discord.js-selfbot-v13": "^3.5.1",
+    "dotenv": "^16.4.7",
+    "gradient-string": "^3.0.0",
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.12.0",
+    "typescript": "^5.7.2"
+  }
+}
